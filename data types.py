@@ -12,16 +12,19 @@ ismammal=True
 cars =["bmw","Mercedes","porshe"]
 print(cars)
 print(cars[0],"toyota")
-#tabos??ordered
+#tuple-ordered
 fruits =("banana","apple","mango","cherry","orange")
 #sets= unorder/unchageable
 countries = {"india","usa","china","italy"}
 print(countries)
 print(fruits)
-#dictionary
+#dictionary -ordered /json pair
 student = {
     "name": "Mercy",
     "age": 20,
     "course": "IT"
 }
+print(student["name"])
+print(student)
+del student["course"]
 print(student)
