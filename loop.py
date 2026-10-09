@@ -8,4 +8,16 @@ print()
 #for loop we use the range method that u write 9,10 u have to write it as 9,11 and the 3rd no is to determine if its increase or decrease)
 for x in range(0, 7, 2):
     print(x)
+print()
 #break---continue statements
+#break---
+for number in range(1, 11):
+    if number == 5:
+        break
+    print(number)
+print()
+#continue---
+for number in range(1, 6):
+    if number == 3:
+        continue
+    print(number)
